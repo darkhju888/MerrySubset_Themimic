@@ -38,6 +38,6 @@ end)
 
 
 local Section = Tab:NewSection("Chapter 4")
-Section:NewButton("Auto Chapter 4 By KTollT", "ButtonInfo", function()
+Section:NewButton("Chapter 4 By KTollT", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/KTollT/main/README.md'))()
 end)
