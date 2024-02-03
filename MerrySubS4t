@@ -45,7 +45,7 @@ end)
 
 local Tab = Window:NewTab("Setting")
 local Section = Tab:NewSection("Fullbright")
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Fullbrigth", "ButtonInfo", function()
     if not _G.FullBrightExecuted then
 
 	_G.FullBrightEnabled = false
